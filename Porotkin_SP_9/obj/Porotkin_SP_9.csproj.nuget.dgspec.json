@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\University\\Porotkin_SP_9\\Porotkin_SP_9\\Porotkin_SP_9.csproj": {}
+  },
+  "projects": {
+    "C:\\University\\Porotkin_SP_9\\Analyzer\\Analyzer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\University\\Porotkin_SP_9\\Analyzer\\Analyzer.csproj",
+        "projectName": "Analyzer",
+        "projectPath": "C:\\University\\Porotkin_SP_9\\Analyzer\\Analyzer.csproj",
+        "packagesPath": "C:\\Users\\mipo1020\\.nuget\\packages\\",
+        "outputPath": "C:\\University\\Porotkin_SP_9\\Analyzer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mipo1020\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\University\\Porotkin_SP_9\\IfAnalyzer\\IfAnalyzer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\University\\Porotkin_SP_9\\IfAnalyzer\\IfAnalyzer.csproj",
+        "projectName": "IfAnalyzer",
+        "projectPath": "C:\\University\\Porotkin_SP_9\\IfAnalyzer\\IfAnalyzer.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\University\\Porotkin_SP_9\\LowLevelFunction\\LowLevelFunction.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\University\\Porotkin_SP_9\\LowLevelFunction\\LowLevelFunction.csproj",
+        "projectName": "LowLevelFunction",
+        "projectPath": "C:\\University\\Porotkin_SP_9\\LowLevelFunction\\LowLevelFunction.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\University\\Porotkin_SP_9\\Porotkin_SP_9\\Porotkin_SP_9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\University\\Porotkin_SP_9\\Porotkin_SP_9\\Porotkin_SP_9.csproj",
+        "projectName": "Porotkin_SP_9",
+        "projectPath": "C:\\University\\Porotkin_SP_9\\Porotkin_SP_9\\Porotkin_SP_9.csproj",
+        "packagesPath": "C:\\Users\\mipo1020\\.nuget\\packages\\",
+        "outputPath": "C:\\University\\Porotkin_SP_9\\Porotkin_SP_9\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mipo1020\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\University\\Porotkin_SP_9\\Analyzer\\Analyzer.csproj": {
+                "projectPath": "C:\\University\\Porotkin_SP_9\\Analyzer\\Analyzer.csproj"
+              },
+              "C:\\University\\Porotkin_SP_9\\IfAnalyzer\\IfAnalyzer.csproj": {
+                "projectPath": "C:\\University\\Porotkin_SP_9\\IfAnalyzer\\IfAnalyzer.csproj"
+              },
+              "C:\\University\\Porotkin_SP_9\\LowLevelFunction\\LowLevelFunction.csproj": {
+                "projectPath": "C:\\University\\Porotkin_SP_9\\LowLevelFunction\\LowLevelFunction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "jQuery.InputMask": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

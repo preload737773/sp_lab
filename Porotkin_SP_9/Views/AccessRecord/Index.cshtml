@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Porotkin_SP_9.Models.AccessRecord>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Access Records</h2>
+        </div>
+        <div class="col-2 text-right">
+            <a asp-controller="AccessRecord" asp-action="GetFile" class="btn btn-primary">Get File</a>
+        </div>
+        <div class="col-2 text-right">
+            <a asp-controller="AccessRecord" asp-action="Import" class="btn btn-primary">Import From File</a>
+        </div>
+        <div class="col-2 text-right">
+            <a asp-controller="AccessRecord" asp-action="Create" class="btn btn-primary">New Record</a>
+        </div>
+    </div>
+    <br/>
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+            <tr>
+                <th>
+                    Login
+                </th>
+                <th>
+                    Password Hash
+                </th>
+                <th>
+                    E-mail
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td width="25%">@item.Login</td>
+                    <td width="25%">@item.Passhash</td>
+                    <td width="25%">@item.Email</td>
+                    <td width="25%">
+                        <a asp-controller="AccessRecord" asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary mx-1">Update</a>
+                        <a asp-controller="AccessRecord" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-1">Delete</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No items created yet</p>
+    }
+
+</div>

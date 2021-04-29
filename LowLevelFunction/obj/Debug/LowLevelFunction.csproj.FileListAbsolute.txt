@@ -1,0 +1,6 @@
+C:\University\Porotkin_SP_9\LowLevelFunction\bin\Debug\LowLevelFunction.dll
+C:\University\Porotkin_SP_9\LowLevelFunction\bin\Debug\LowLevelFunction.pdb
+C:\University\Porotkin_SP_9\LowLevelFunction\obj\Debug\LowLevelFunction.csprojAssemblyReference.cache
+C:\University\Porotkin_SP_9\LowLevelFunction\obj\Debug\LowLevelFunction.csproj.CoreCompileInputs.cache
+C:\University\Porotkin_SP_9\LowLevelFunction\obj\Debug\LowLevelFunction.dll
+C:\University\Porotkin_SP_9\LowLevelFunction\obj\Debug\LowLevelFunction.pdb

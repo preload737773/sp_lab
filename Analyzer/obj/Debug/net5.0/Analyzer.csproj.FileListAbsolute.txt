@@ -1,0 +1,12 @@
+C:\University\Porotkin_SP_9\Analyzer\bin\Debug\net5.0\Analyzer.deps.json
+C:\University\Porotkin_SP_9\Analyzer\bin\Debug\net5.0\Analyzer.dll
+C:\University\Porotkin_SP_9\Analyzer\bin\Debug\net5.0\ref\Analyzer.dll
+C:\University\Porotkin_SP_9\Analyzer\bin\Debug\net5.0\Analyzer.pdb
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.csprojAssemblyReference.cache
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.AssemblyInfoInputs.cache
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.AssemblyInfo.cs
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.csproj.CoreCompileInputs.cache
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.dll
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\ref\Analyzer.dll
+C:\University\Porotkin_SP_9\Analyzer\obj\Debug\net5.0\Analyzer.pdb

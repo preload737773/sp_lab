@@ -1,0 +1,21 @@
+﻿@model Porotkin_SP_9.Models.AnalyzerParams
+
+<form method="post" asp-action="Analyze">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 pl-3">Check if-statement execution</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-10">
+                        <input type="text" asp-for="IfBodyText" class="form-control"/>
+                    </div>
+                    <div class="col-2">
+                        <input type="submit" class="btn btn-success w-75" value="Analyze"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,6 @@
+C:\University\Porotkin_SP_9\IfAnalyzer\bin\Debug\IfAnalyzer.dll
+C:\University\Porotkin_SP_9\IfAnalyzer\bin\Debug\IfAnalyzer.pdb
+C:\University\Porotkin_SP_9\IfAnalyzer\obj\Debug\IfAnalyzer.csprojAssemblyReference.cache
+C:\University\Porotkin_SP_9\IfAnalyzer\obj\Debug\IfAnalyzer.csproj.CoreCompileInputs.cache
+C:\University\Porotkin_SP_9\IfAnalyzer\obj\Debug\IfAnalyzer.dll
+C:\University\Porotkin_SP_9\IfAnalyzer\obj\Debug\IfAnalyzer.pdb

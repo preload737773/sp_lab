@@ -1,0 +1,50 @@
+﻿@model Porotkin_SP_9.Models.AccessRecord
+
+<form method="post" asp-action="Update">
+    <input asp-for="Id" hidden />
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 pl-3">Update Record</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Login"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Passhash"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Email"></label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <input asp-for="Login" class="form-control"/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Passhash" class="form-control"/>
+                    </div>
+                    <div class="col-4">
+                        <input id="email" asp-for="Email" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-2 row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-info w-75" value="Update"/>
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-danger w-75">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $("#email").inputmask({alias: "email"});
+</script>
+

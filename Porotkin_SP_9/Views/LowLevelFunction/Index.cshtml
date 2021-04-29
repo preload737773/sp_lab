@@ -1,0 +1,25 @@
+﻿@model Porotkin_SP_9.Models.LowLevelParams
+
+<form method="post" asp-action="Calculate">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 pl-3">Multiply two numbers</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <input asp-for="First" class="form-control"/>
+                    </div>
+                    <div>*</div>
+                    <div class="col-4">
+                        <input asp-for="Second" class="form-control"/>
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="btn btn-success w-75" value="Calculate"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
