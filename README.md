@@ -9,4 +9,4 @@ The solution contains 3 projects:
 
 ## Note:
 The project uses Entity Framework to connect to MS SQL database.
-The connection string is defined in {{appsettings.json}}
+The connection string is defined in *appsettings.json*
